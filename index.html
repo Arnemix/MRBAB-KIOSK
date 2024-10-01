@@ -9,23 +9,24 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Fine Arts Museum</h1>
-        <h2 id="counter">N°</h2>
-        <div class="kiosk-container">
-            <div id="prevButton">
-                <button>Précédent</button>
+    <div class="kiosk-container">
+        <div class="kiosk-asset">
+            <!-- Bouton précédent -->
+            <div id="prevButton" class="button">
+                <button><i class="arrow left"></i></button>
             </div>
-            <div class="kiosk-asset">
-                <img src="./assets/image- (1).jpg" alt="" />
-            </div>
-            <div id="nextButton">
-                <button>Suivant</button>
+
+            <!-- Image principale -->
+            <img src="./assets/image- (1).jpg" alt="" />
+
+            <!-- Bouton suivant -->
+            <div id="nextButton" class="button">
+                <button><i class="arrow right"></i></button>
             </div>
         </div>
     </div>
-</body>
 
-<script src="main.js"></script>
+    <script src="main.js"></script>
+</body>
 
 </html>

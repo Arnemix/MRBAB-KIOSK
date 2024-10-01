@@ -10,8 +10,6 @@ const imageElement = document.querySelector(".kiosk-asset img");
 
 function updateImage() {
     imageElement.src = images[currentImageIndex];
-    let counter = document.getElementById("counter");
-    counter.innerHTML = "N°" + (currentImageIndex + 1) + "/" + images.length;
 }
 
 function showPreviousImage() {
@@ -28,3 +26,5 @@ document.getElementById("prevButton").addEventListener("click", showPreviousImag
 document.getElementById("nextButton").addEventListener("click", showNextImage);
 
 updateImage();
+// Protection
+document.addEventListener("contextmenu", (event) => event.preventDefault());
