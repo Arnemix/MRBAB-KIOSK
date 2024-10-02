@@ -38,7 +38,7 @@ body {
 img {
     width: 100vw; /* L'image occupe 80% de la largeur disponible */
     object-fit: contain;
-    scale: 1.35;
+    scale: 1.15;
     z-index: 0; /* L'image reste à l'arrière-plan */
 }
 
@@ -46,10 +46,10 @@ button {
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 15px 30px;
+    padding: 70px 50px;
     font-size: 18px;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 20px;
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
